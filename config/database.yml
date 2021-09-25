@@ -50,7 +50,7 @@ test:
 #
 production:
   adapter: postgresql
-  encoding: utf8mb4
+  encoding: unicode
   pool: 5
   database: tasklist_production
   username: tasklist
